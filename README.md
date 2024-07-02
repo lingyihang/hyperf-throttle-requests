@@ -4,9 +4,9 @@
 
 ## 运行环境
 
-- php >= 8.0
+- php >= 8.1
 - composer
-- hyperf ~3.0.0
+- hyperf ~3.1.0
 
 ## 安装
 
