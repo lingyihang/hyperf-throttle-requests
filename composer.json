@@ -1,5 +1,5 @@
 {
-    "name": "pudongping/hyperf-throttle-requests",
+    "name": "lingyihang/hyperf-throttle-requests",
     "description": "A rate limiter implemented for Hyperf framework.",
     "type": "library",
     "license": "MIT",
@@ -22,6 +22,10 @@
         {
             "name": "pudongping",
             "email": "pudongping67@gmail.com"
+        },
+        {
+            "name": "lingyihang",
+            "email": "373103520@qq.com"
         }
     ],
     "require": {
