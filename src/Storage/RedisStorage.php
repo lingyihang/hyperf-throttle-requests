@@ -10,6 +10,7 @@ declare(strict_types=1);
 
 namespace Pudongping\HyperfThrottleRequests\Storage;
 
+use Hyperf\Redis\Redis;
 use Hyperf\Redis\RedisFactory;
 use Psr\Container\ContainerInterface;
 
@@ -17,9 +18,9 @@ class RedisStorage implements StorageInterface
 {
 
     /**
-     * @var RedisFactory
+     * @var Redis
      */
-    protected $redis;
+    protected Redis $redis;
 
     public function __construct(ContainerInterface $container)
     {
